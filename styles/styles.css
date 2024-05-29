@@ -1,0 +1,166 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  header {
+    
+    color: black;
+    padding: 0.0009em;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.7em;
+  }
+
+  header h1 img {
+    width: 60px; 
+    height: 60px;
+    margin: 0 5px; 
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  section#welcome-tile {
+    background-color: rgb(242, 236, 255); 
+    padding: 20px;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    max-width: 90%; 
+  margin: 0 auto; 
+  font-size: 1.3em;
+  font-family: cursive;
+  }
+  
+  .welcome-tile img {
+    width: 400px; 
+    height: auto; 
+    object-fit: cover; 
+  }
+
+  section#learning-modules {
+    text-align: center; 
+  }
+
+  section#subsections {
+    display: flex; 
+    justify-content: space-between; 
+  }
+  
+  .subsection {
+    flex-basis: 25%; 
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #f0ecf0;
+    border-radius: 1px;
+    margin: 10px;
+  }
+  
+  .subsection img {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+
+  .chatbot {
+
+    background-color: #d0eef1; 
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px; 
+    text-align: center;
+  }
+  
+  .chatbot h2 {
+    margin-bottom: 10px;
+  }
+  
+  .chatbot p {
+    margin-bottom: 15px;
+  }
+
+  .chatbot button {
+    background-color: #292936;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .chatbot img {
+    width: 200px; 
+    height: 200px;
+    margin: 0 5px; 
+  }
+  
+  .join-community {
+
+    background-color: #e8e4db; 
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1350px; 
+    text-align: center;
+  }
+  
+  .join-community h2 {
+    margin-bottom: 10px;
+  }
+  
+  .join-community p {
+    margin-bottom: 15px;
+  }
+  
+  .join-community form {
+    display: inline-block; 
+  }
+  
+  .join-community label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .join-community input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .join-community button[type="submit"] {
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+  
+  footer {
+    background-color: #faf9f9;
+    color: black;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  @media (max-width: 900px) {
+    section#subsections {
+      flex-wrap: wrap; 
+    }
+  }
+  
+  @media (max-width: 600px) {
+    section#subsections {
+      grid-template-columns: 1fr; 
+    }
+  }
+  

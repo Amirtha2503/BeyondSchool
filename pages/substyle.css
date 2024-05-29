@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1, h2, h3 {
+    margin: 10px 0;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  .hero {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .explanation {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+  
+  .explanation img {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin-bottom: 40px;
+  }
+
+  .emotion-wheel-container {
+    overflow: hidden;
+  }
+  
+  .emotion-wheel-container img {
+    float: left;
+    margin-right: 0px; 
+  }
+  
+  
+  .tips, .help {
+    margin-bottom: 40px;
+  }
+  
+  .tips ul, .help ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .tips ul li, .help ul li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .selected {
+    background-color: lightblue; 
+  }
+  
